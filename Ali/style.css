@@ -1,0 +1,725 @@
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.frame .div {
+    background-color: #ffffff;
+    width: 595px;
+    height: 842px;
+    position: relative;
+}
+
+.frame .overlap-group {
+    position: absolute;
+    width: 188px;
+    height: 842px;
+    top: 0;
+    left: 0;
+    background-color: #145248;
+}
+
+.frame .image {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 50px;
+    left: 66px;
+    object-fit: cover;
+}
+
+.frame .rick-tang {
+    top: 120px;
+    left: 61px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    position: absolute;
+    line-height: normal;
+}
+
+.frame .text-wrapper {
+    position: absolute;
+    top: 142px;
+    left: 54px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+    position: absolute;
+    top: 184px;
+    left: 41px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .links {
+    position: absolute;
+    top: 354px;
+    left: 40px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .skills {
+    position: absolute;
+    top: 479px;
+    left: 40px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-3 {
+    top: 256px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.2px;
+    position: absolute;
+    left: 41px;
+    font-size: 10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-4 {
+    position: absolute;
+    top: 296px;
+    left: 41px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+    top: 272px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    letter-spacing: 0.1px;
+    position: absolute;
+    left: 41px;
+    font-size: 10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-6 {
+    position: absolute;
+    top: 312px;
+    left: 41px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-7 {
+    position: absolute;
+    top: 412px;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-8 {
+    position: absolute;
+    top: 437px;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-9 {
+    position: absolute;
+    top: 217px;
+    left: 41px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-10 {
+    position: absolute;
+    top: 233px;
+    left: 41px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-11 {
+    position: absolute;
+    top: 512px;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-12 {
+    position: absolute;
+    top: 549px;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-13 {
+    top: 586px;
+    position: absolute;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-14 {
+    top: 623px;
+    position: absolute;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-15 {
+    position: absolute;
+    top: 660px;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-16 {
+    top: 697px;
+    position: absolute;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-17 {
+    position: absolute;
+    top: 387px;
+    left: 40px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffffb2;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .group {
+    top: 530px;
+    position: absolute;
+    width: 108px;
+    height: 2px;
+    left: 40px;
+    background-color: #d9d9d95c;
+}
+
+.frame .rectangle {
+    width: 103px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.frame .rectangle-wrapper {
+    top: 567px;
+    position: absolute;
+    width: 108px;
+    height: 2px;
+    left: 40px;
+    background-color: #d9d9d95c;
+}
+
+.frame .div-wrapper {
+    top: 604px;
+    position: absolute;
+    width: 108px;
+    height: 2px;
+    left: 40px;
+    background-color: #d9d9d95c;
+}
+
+.frame .rectangle-2 {
+    width: 83px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.frame .group-2 {
+    top: 641px;
+    position: absolute;
+    width: 108px;
+    height: 2px;
+    left: 40px;
+    background-color: #d9d9d95c;
+}
+
+.frame .rectangle-3 {
+    width: 56px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.frame .group-3 {
+    top: 678px;
+    position: absolute;
+    width: 108px;
+    height: 2px;
+    left: 40px;
+    background-color: #d9d9d95c;
+}
+
+.frame .rectangle-4 {
+    width: 68px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.frame .group-4 {
+    top: 715px;
+    position: absolute;
+    width: 108px;
+    height: 2px;
+    left: 40px;
+    background-color: #d9d9d95c;
+}
+
+.frame .profile {
+    position: absolute;
+    top: 49px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .experience {
+    position: absolute;
+    top: 180px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-18 {
+    position: absolute;
+    top: 212px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-19 {
+    top: 227px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-20 {
+    top: 331px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-21 {
+    top: 433px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-22 {
+    position: absolute;
+    top: 535px;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-23 {
+    position: absolute;
+    top: 316px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-24 {
+    position: absolute;
+    top: 418px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-25 {
+    position: absolute;
+    top: 520px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-26 {
+    position: absolute;
+    top: 243px;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .p {
+    position: absolute;
+    top: 345px;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-27 {
+    top: 447px;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    position: absolute;
+    line-height: normal;
+}
+
+.frame .text-wrapper-28 {
+    top: 549px;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    position: absolute;
+    line-height: normal;
+}
+
+.frame .designed-safety {
+    position: absolute;
+    width: 299px;
+    top: 262px;
+    left: 237px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.frame .product-and-system {
+    position: absolute;
+    width: 299px;
+    top: 364px;
+    left: 237px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.frame .designer-and {
+    position: absolute;
+    width: 299px;
+    top: 466px;
+    left: 237px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.frame .contributed-to-maps {
+    position: absolute;
+    width: 299px;
+    top: 568px;
+    left: 237px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.frame .i-m-a-product {
+    position: absolute;
+    width: 322px;
+    top: 82px;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-29 {
+    top: 257px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.frame .text-wrapper-30 {
+    top: 359px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.frame .text-wrapper-31 {
+    top: 461px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.frame .text-wrapper-32 {
+    top: 563px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.frame .text-wrapper-33 {
+    position: absolute;
+    top: 670px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-34 {
+    position: absolute;
+    top: 686px;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-35 {
+    position: absolute;
+    top: 637px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-36 {
+    top: 760px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-37 {
+    top: 780px;
+    position: absolute;
+    left: 228px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000b2;
+    font-size: 9px;
+    letter-spacing: 0.09px;
+    line-height: normal;
+}
+
+.frame .text-wrapper-38 {
+    position: absolute;
+    top: 727px;
+    left: 228px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+}
